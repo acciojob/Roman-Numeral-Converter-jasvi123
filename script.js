@@ -17,7 +17,7 @@ function convertToRoman(num) {
     };
 
   let result = "";
-	for(let[symbol,value] of arr){
+	for(let[symbol,value] of obj){
 		while(num >= value){
 			result += symbol;
 			num -= value;
