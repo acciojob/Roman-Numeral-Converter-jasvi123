@@ -17,7 +17,7 @@ function convertToRoman(num) {
     };
 
   let result = "";
-	for(let[symbol,value] of Object.entries(obj){
+	for(let[symbol,value] of Object.entries(obj)){
 		while(num >= value){
 			result += symbol;
 			num -= value;
